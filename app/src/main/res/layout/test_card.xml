@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:id="@+id/linearlayout1"
+    android:layout_marginLeft="8dp"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:padding="5dp"
+        app:cardElevation="5dp">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/options_text"
+       android:textSize="18sp"
+       android:text="Anxiety test"
+       android:textStyle="bold"
+
+       />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

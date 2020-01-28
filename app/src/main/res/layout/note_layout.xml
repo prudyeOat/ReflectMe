@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="160dp"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="5dp"
+    android:id="@+id/cardView_row"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:src="@drawable/woman"
+    android:scaleType="centerCrop"
+    android:adjustViewBounds="true"
+    android:id="@+id/image"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17 Nov 19"
+            android:background="@drawable/gradient_background"
+            android:transitionName="myName"
+            android:fontFamily="sans-serif"
+
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="8dp"
+android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+          android:layout_gravity="top|right"
+android:layout_marginRight="8dp"
+            android:id="@+id/note_name"
+            android:textStyle="bold"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modern contemporary home interiors need serious"
+        android:transitionName="myName"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorWhite"
+        android:maxLines="4"
+        android:background="@drawable/gradient_background"
+        android:layout_gravity="bottom"
+android:padding="5dp"
+
+        android:id="@+id/note_date"
+        android:textStyle="bold"
+        />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

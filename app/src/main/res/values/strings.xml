@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ReflectMe</string>
+    <string name="action_settings">Settings</string>
+
+
+
+        <string name="heading">All scrores</string>
+        <string name="heading1">Anxiety</string>
+        <string name="heading2">Depression</string>
+        <string name="hint_item_title">What would you like to talk about?</string>
+        <string name="hint_item_content">Tell me more</string>
+        <string name="image_description">Image header for note</string>
+        <string name="add_note">add note</string>
+        <string name="open_text">open note</string>
+        <string name="next">continue</string>
+        <string name="see_more">see more</string>
+    <string name="see_results">see results</string>
+        <string name="disclaimer_text">Always  consult with a trained mental health professional if you\'re experiencing depressive feelings and/or difficuties in your daily functioning that causeyou anxiety or worry.This test is meant to be used as a starting point, not as a diagnosis tool.This score is not intended as a mental disorder diagnosis or as any type of health recommendation.</string>
+        <string name="disclaimer_note">A screening is not a diagnosis,but can be a helpful tool for starting a conversation with your doctor or a loved one about your mental health</string>
+
+
+</resources>
